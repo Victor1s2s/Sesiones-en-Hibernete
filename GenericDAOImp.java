@@ -28,7 +28,7 @@ public class GenericDAOImp <T, Id extends Serializable> implements GenericDAO<T,
     }
 
 
-    
+   
     private Session getSession() {
         Session session = sessionFactory.getCurrentSession();
         return session;
